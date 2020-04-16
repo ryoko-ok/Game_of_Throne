@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>DOM Traversal</title>
+<title>R DOM Traversal</title>
 <link href="css/meyerReset.css" rel="stylesheet" type="text/css" media="screen">
 <link href="css/GOT_master.css" rel="stylesheet" type="text/css" media="screen">
 </head>
@@ -11,13 +11,13 @@
     <main>
 
     <section id="imageContainer">
-    	<div id="houseImages" style="right:0"> <!-- add in all of the images to make a scrolling "banner" -->
-    		<img src="images/stark.jpg"/>
-    		<img src="images/baratheon.jpg"/>
-    		<img src="images/lannister.jpg"/>
-    		<img src="images/tully.jpg"/>
-    		<img src="images/greyjoy.jpg"/>
-    		<img src="images/arryn.jpg"/>
+        <div id="houseImages" style="right: 0"> <!-- add in all of the images to make a scrolling "banner" -->
+            <img src="images/stark.jpg"/>
+            <img src="images/baratheon.jpg"/>
+            <img src="images/lannister.jpg"/>
+            <img src="images/tully.jpg"/>
+            <img src="images/greyjoy.jpg"/>
+            <img src="images/arryn.jpg"/>
             <img src="images/targaryen.jpg"/>
             <img src="images/tyrell.jpg"/>
             <img src="images/frey.jpg"/>
@@ -25,8 +25,8 @@
     </section>
 
     <nav id="bottomNav">
-    	<ul id="navList">
-        	<!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
+        <ul id="navList">
+            <!-- custom data attribute, allowing to pass custom data https://developer.mozilla.org/en/docs/Web/API/HTMLElement/dataset -->
             <li><div class="sigilContainer stark" data-offset="0"></div></li>
             <li><div class="sigilContainer baratheon" data-offset="1"></div></li>
             <li><div class="sigilContainer lannister" data-offset="2"></div></li>
@@ -49,11 +49,15 @@
   <span class="close-button">X</span>
 
   <video src="video/House-Stark.mp4"></video>
+
   <div class="vid-controls">
     <span class="play-button">
-    <button>Pause</button>
-  </span>
+    <button>Pause</button>    
+    </span>
 
+    <span class="rewind-button">
+    <button>Rewind</button>
+    </span>
   </div>
 </section>
 
